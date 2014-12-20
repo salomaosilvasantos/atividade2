@@ -16,9 +16,7 @@
 		<java.validation.version>1.1.0.Final</java.validation.version>
 		<jsf.api.version>2.1.7</jsf.api.version>
 		<jsf.impl.version>2.1.7</jsf.impl.version>
-		<jstl.version>1.2</jstl.version>
-		<servlet.api.version>2.5</servlet.api.version>
-		<jsp.api.version>2.1</jsp.api.version>
+		
 		<el.ri.version>1.0</el.ri.version>
 		<primefaces.version>4.0</primefaces.version>
 	</properties>
@@ -34,16 +32,6 @@
 			<artifactId>jsf-impl</artifactId>
 			<version>${jsf.impl.version}</version>
 		</dependency>
-
-		<!-- <dependency> <groupId>javax.servlet.jsp</groupId> <artifactId>jsp-api</artifactId> 
-			<version>${jsp.api.version}</version> </dependency> <dependency> <groupId>com.sun.el</groupId> 
-			<artifactId>el-ri</artifactId> <version>${el.ri.version}</version> </dependency> 
-			<dependency> <groupId>javax.servlet</groupId> <artifactId>jstl</artifactId> 
-			<version>${jstl.version}</version> </dependency> <dependency> <groupId>javax.servlet</groupId> 
-			<artifactId>servlet-api</artifactId> <version>${servlet.api.version}</version> 
-			</dependency> -->
-
-
 
 		<dependency>
 			<groupId>javax.validation</groupId>
@@ -75,9 +63,6 @@
 			<artifactId>primefaces</artifactId>
 			<version>${primefaces.version}</version>
 		</dependency>
-
-
-
 
 	</dependencies>
 
